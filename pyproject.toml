@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "titanicproblem"
+version = "0.1.0"
+description = "Machine learning practice using linear regression"
+authors = ["Jacob Gulan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+mypy = "^1.2.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
